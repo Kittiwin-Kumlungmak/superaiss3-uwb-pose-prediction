@@ -1,0 +1,40 @@
+2023-03-09 23:39:58.889 [info] 
+
+
+
+
+2023-03-09 23:39:58.889 [info] Extension host agent started.
+2023-03-09 23:39:58.917 [info] Started initializing default profile extensions in extensions installation folder. file:///home/signal/.vscode-server/extensions
+2023-03-09 23:39:58.928 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/signal/.vscode-server/extensions
+2023-03-09 23:39:59.057 [info] [127.0.0.1][002727f2][ManagementConnection] New connection established.
+2023-03-09 23:39:59.134 [info] [127.0.0.1][f368aec9][ExtensionHostConnection] New connection established.
+2023-03-09 23:39:59.613 [info] [127.0.0.1][f368aec9][ExtensionHostConnection] <5250> Launched Extension Host Process.
+2023-03-09 23:40:06.351 [info] [127.0.0.1][002727f2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-09 23:40:06.369 [info] [127.0.0.1][f368aec9][ExtensionHostConnection] <5250> Extension Host Process exited with code: 0, signal: null.
+2023-03-09 23:40:06.369 [info] Cancelling previous shutdown timeout
+2023-03-09 23:40:06.369 [info] Last EH closed, waiting before shutting down
+2023-03-09 23:40:12.886 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-03-09 23:40:12.886 [info] Cancelling previous shutdown timeout
+2023-03-09 23:40:13.123 [info] [127.0.0.1][f1656a3a][ManagementConnection] New connection established.
+2023-03-09 23:40:13.202 [info] [127.0.0.1][f592a504][ExtensionHostConnection] New connection established.
+2023-03-09 23:40:13.206 [info] [127.0.0.1][f592a504][ExtensionHostConnection] <5419> Launched Extension Host Process.
+2023-03-09 23:40:15.425 [error] CodeExpectedError: Could not find pty on pty host
+    at S.L (/home/signal/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:27:6849)
+    at S.updateTitle (/home/signal/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:27:2630)
+    at Object.call (/home/signal/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at l.s (/home/signal/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at l.q (/home/signal/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/signal/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at n.invoke (/home/signal/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at E.deliver (/home/signal/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:11:2070)
+    at c.fire (/home/signal/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:11:1708)
+    at process.T (/home/signal/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:9:20949)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-03-09 23:41:01.587 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/signal)
+2023-03-09 23:45:12.888 [info] New EH opened, aborting shutdown
+2023-03-09 23:50:11.733 [info] [127.0.0.1][f1656a3a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-09 23:50:11.747 [info] [127.0.0.1][f592a504][ExtensionHostConnection] <5419> Extension Host Process exited with code: 0, signal: null.
+2023-03-09 23:50:11.747 [info] Last EH closed, waiting before shutting down
+2023-03-09 23:55:11.747 [info] Last EH closed, shutting down

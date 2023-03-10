@@ -1,0 +1,24 @@
+{
+    "remote.SSH.remotePlatform": {
+        "vm2.lnode.com": "linux",
+        "43.255.107.58": "linux",
+        "110.238.118.209": "linux",
+        "94.74.81.219": "linux",
+        "159.138.228.47": "linux",
+        "94.74.89.120": "linux",
+        "94.74.95.144": "linux",
+        "119.13.107.222": "linux",
+        "110.238.107.2": "linux",
+        "49.0.192.65": "linux",
+        "190.92.217.189": "linux",
+        "190.92.220.190": "linux"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "python.autoComplete.extraPaths": [
+    
+    ],
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.analysis.extraPaths": []
+}
